@@ -82,7 +82,7 @@ ul .strong{
   position: absolute;
   top: 0;
   left: calc(-100%);
-  height: calc(100%);
+  height: calc(95%);
   width: calc(80%);
   border-radius: 2px;
   transform: skew(-25deg);
