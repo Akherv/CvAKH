@@ -1,0 +1,260 @@
+#containerGlobal{
+  width:400px;
+  height:400px;
+  display:flex;
+  flex-wrap:wrap;
+  list-style-type: none;
+}
+
+#containerTopics{
+  list-style-type: none;
+  display:flex;
+  flex-wrap:wrap;
+  width:400px;
+  height:400px;
+}
+
+li {
+  margin:5px;
+  cursor:pointer;
+}
+
+img {
+  width:40px;
+}
+
+
+.titre{
+  font-size: 13px;
+  position:relative;
+  top:30px;
+}
+
+/**********************************************************/
+
+#topicsProfil{
+  width:110px;
+  height:110px;
+  background-color:rgb(126, 71, 245);
+  background-position: center;
+  color:rgb(126, 71, 245);
+  transition: .6s all, .3s .3s transform;
+  clip-path: polygon(50% 0%, 50% 0%, 100% 50%, 50% 100%, 50% 100%, 0% 50%);
+  opacity: .8;
+}
+#topicsProfil:hover{
+  background-color:rgba(255, 255, 255, 0);
+  background-image:url('../img/superhero.png');
+  background-size: 70%;
+  background-repeat:no-repeat;
+  background-blend-mode: color-burn;
+  color:rgb(126, 71, 245);
+  font-weight: bold;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%);
+  transform: scale(1.4) translateX(60);
+  opacity: 1;
+}
+
+/**********************************************************/
+
+#topicsFormations{
+  width:110px;
+  height:110px;
+  border-radius:90%;
+  background-color:rgb(66, 79, 255);
+  color:rgb(66, 79, 255);
+  background-position: center;
+}
+#topicsFormations:hover{
+  background-color:rgba(157, 156, 156, 0.598);
+  background-image:url('../img/education.png');
+  background-blend-mode: color-burn;
+  background-size: 70%;
+  background-repeat:no-repeat;
+  color:white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+/**********************************************************/
+
+#topicsCompetences{
+  width:110px;
+  height:110px;
+  background-color:rgb(64, 134, 246);
+  background-position: center;
+  color:rgb(64, 134, 246);
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  opacity: .8;
+}
+#topicsCompetences:hover{
+  width:110px;
+  height:110px;
+  background-color:rgba(64, 207, 246, 0.852);
+  background-image:url('../img/skills.png');
+  background-size: 70%;
+  background-repeat:no-repeat;
+  background-blend-mode: color-burn;
+  color:white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+/**********************************************************/
+
+#topicsOutils{
+  width:110px;
+  height:110px;
+  border-radius:90%;
+  background-color:rgb(138, 236, 154);
+  background-position: center;
+  color:rgb(138, 236, 154);
+}
+#topicsOutils:hover{
+  width:110px;
+  height:110px;
+  border-radius:90%;
+  background-color:rgba(0, 188, 230, 0.427);
+  background-image:url('../img/pencil-case.png');
+  background-size: 70%;
+  background-repeat:no-repeat;
+  background-blend-mode: color-burn;
+  color:white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+/**********************************************************/
+
+#topicsExperiences{
+  width:110px;
+  height:110px;
+  background-color:#6af4b8;
+  background-position: center;
+  color:#6af4b8;
+  transition: .6s all, .3s .3s transform;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  opacity: .8;
+}
+#topicsExperiences:hover{
+  width:110px;
+  height:110px;
+  background-color:rgb(138, 193, 236);
+  background-image:url('../img/success.png');
+  background-size: 70%;
+  background-repeat:no-repeat;
+  background-blend-mode: color-burn;
+  color:white;
+  font-weight: bold;
+  clip-path: polygon(50% 0%, 77% 19%, 98% 35%, 88% 65%, 79% 91%, 55% 91%, 21% 91%, 10% 58%, 2% 35%, 24% 19%);
+  transform: scale(1.4) translateX(60);
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  border-radius: 3px;
+  opacity: 1;
+}
+
+/**********************************************************/
+
+#topicsSucces{
+  width:110px;
+  height:110px;
+  border-radius:90%;
+  background-color:rgb(138, 221, 236);
+  background-position: center;
+  color:rgb(138, 221, 236);
+}
+#topicsSucces:hover{
+  width:110px;
+  height:110px;
+  border-radius:90%;
+  background-color:rgb(236, 205, 138);
+  background-blend-mode: color-burn;
+  background-image:url('../img/award.png');
+  background-size: 70%;
+  background-repeat:no-repeat;
+  color:white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+/**********************************************************/
+
+#topicsExtras{
+  width:110px;
+  height:110px;
+  background-color:rgb(240, 240, 11);
+  background-position: center;
+  color:rgb(240, 240, 11);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+#topicsExtras:hover{
+  width:110px;
+  height:110px;
+  background-color:rgba(245, 207, 40, 0.441);
+  background-image:url('../img/cake.png');
+  background-size: 70%;
+  background-repeat:no-repeat;
+  background-blend-mode: color-burn;
+  color:white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+/**********************************************************/
+
+#topicsInteret{
+  width:110px;
+  height:110px;
+  border-radius:90%;
+  background-color:rgba(245, 207, 40, 0.575);
+  color:rgba(245, 207, 40, 0.575);
+  background-position: center
+}
+#topicsInteret:hover{
+  width:110px;
+  height:110px;
+  border-radius:90%;
+  background-color:rgba(83, 214, 237, 0.393);
+  background-image:url('../img/kite.png');
+  background-size: 70%;
+  background-repeat:no-repeat;
+  background-blend-mode: color-burn;
+  color:white;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+/**********************************************************/
+
+#topicsContact{
+  width:90px;
+  height:90px;
+  margin-top:20px;
+  margin-left:20px;
+  background-color:rgb(236, 138, 138);
+  background-position: center;
+  color:rgb(236, 138, 138);
+  transition: .6s all, .3s .3s transform;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  opacity: .8;
+}
+
+#topicsContact:hover{
+  width:90px;
+  height:90px;
+  border-radius:90%;
+  background-color:rgb(138, 138, 236);
+  background-image:url('../img/send.png');
+  background-size: 70%;
+  background-repeat:no-repeat;
+  background-blend-mode: color-burn;
+  color:white;
+  font-weight: bold;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%);
+  transform: scale(1.4) translateY(60);
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+  border-radius: 3px;
+  opacity: 1;
+}
+
+/**********************************************************/
+

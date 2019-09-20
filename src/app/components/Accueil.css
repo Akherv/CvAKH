@@ -1,0 +1,21 @@
+#accueil {
+  width:100vw;
+  height:100vh;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/desktoptheglassdesk.jpg");
+  background-size: cover;
+  background-repeat:no-repeat
+}
+
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap');
+
+span {
+  font-family: 'Cedarville Cursive', cursive;
+  position:absolute;
+  top:100px;
+  text-align: center;
+  font-size:60px
+}
