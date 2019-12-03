@@ -195,12 +195,7 @@ export default class Card extends Component {
         {(this.props.infos === "contacts") && 
           <div className='texte'>
             <h1>CONTACTS</h1>
-              <ul>
-                <li>06 70 65 44 88</li>
-                <li>herve.albakarina@orange.fr</li>
-                <li>16 rue de la Maillardière 
-                <br/>Bât. Cèdres A 35770 VERN-SUR-SEICHE</li>
-              </ul>
+              <a href="mailto:%68e%72&#118;&#101;.%61&#108;&#98;ak&#97;&#114;&#105;%6e&#97;&#64;gm%61i&#108;%2eco%6d">E-mail</a>
           </div>
         }  
         
