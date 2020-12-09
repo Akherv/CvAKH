@@ -195,7 +195,7 @@ export default class Card extends Component {
         {(this.props.infos === "contacts") && 
           <div className='texte'>
             <h1>CONTACTS</h1>
-              <a href="mailto:%68e%72&#118;&#101;.%61&#108;&#98;ak&#97;&#114;&#105;%6e&#97;&#64;gm%61i&#108;%2eco%6d">E-mail</a>
+              <a>E-mail</a>
           </div>
         }  
         
